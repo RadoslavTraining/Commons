@@ -7,10 +7,8 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class StudentDTO {
+public class CourseSearchRequest {
 
-    private Long id;
-    private String firstName;
-    private String lastName;
+    private Long studentId;
 
 }

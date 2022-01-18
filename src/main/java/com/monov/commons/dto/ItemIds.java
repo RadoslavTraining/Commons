@@ -4,13 +4,13 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
-public class StudentDTO {
+import java.util.List;
 
-    private Long id;
-    private String firstName;
-    private String lastName;
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class ItemIds {
+
+    private List<Long> ids;
 
 }
