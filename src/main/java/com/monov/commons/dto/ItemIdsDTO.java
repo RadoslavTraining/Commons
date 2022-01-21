@@ -4,11 +4,13 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
-public class CourseSearchRequest {
+import java.util.List;
 
-    private Long studentId;
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class ItemIdsDTO {
+
+    private List<Long> ids;
 
 }
