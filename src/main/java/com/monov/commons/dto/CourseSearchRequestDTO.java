@@ -9,6 +9,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class CourseSearchRequestDTO {
 
-    private Long studentId;
+    private String studentId;
 
 }

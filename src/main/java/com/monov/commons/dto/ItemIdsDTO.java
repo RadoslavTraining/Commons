@@ -11,6 +11,6 @@ import java.util.List;
 @NoArgsConstructor
 public class ItemIdsDTO {
 
-    private List<Long> ids;
+    private List<String> ids;
 
 }

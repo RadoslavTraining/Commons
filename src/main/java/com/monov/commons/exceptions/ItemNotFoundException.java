@@ -9,5 +9,5 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class ItemNotFoundException extends RuntimeException{
-    private Long id;
+    private String id;
 }
